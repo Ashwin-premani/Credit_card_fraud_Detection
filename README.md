@@ -30,3 +30,36 @@
 
 <h3 align="left">📁 Project Structure</h3>
 
+
+---
+
+<h3 align="left">🛠️ Steps Followed</h3>
+
+<ul align="left">
+  <li>✅ <strong>Data Preprocessing</strong>: Missing values check, scaling amounts, feature engineering</li>
+  <li>✅ <strong>Handling Class Imbalance</strong>: SMOTE, random undersampling, combination techniques</li>
+  <li>✅ <strong>Model Building</strong>: Logistic Regression, Random Forest, XGBoost, (optional) Neural Networks</li>
+  <li>✅ <strong>Model Evaluation</strong>: Recall, Precision, F1-Score, ROC-AUC Curves, Confusion Matrix analysis</li>
+</ul>
+
+---
+
+<h3 align="left">📈 Results</h3>
+
+<ul align="left">
+  <li>✔️ Achieved strong balance between recall and precision</li>
+  <li>✔️ Chose model with minimal false positives while maintaining high fraud detection rate</li>
+</ul>
+
+---
+
+<h3 align="left">🚀 How to Run Locally</h3>
+
+<ol align="left">
+  <li>Clone the repository:
+  
+  ```bash
+  git clone https://github.com/your-username/credit-card-fraud-detection.git
+  cd credit-card-fraud-detection
+
+
