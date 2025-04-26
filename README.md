@@ -1,44 +1,46 @@
-🚀 Credit Card Fraud Detection
+:
 
+🚀 Credit Card Fraud Detection
 Dataset: Credit Card Fraud Detection - Kaggle
 
 📖 Overview
 This project builds an efficient classification model to detect fraudulent credit card transactions.
 The dataset is highly imbalanced, so specialized techniques are applied to ensure high fraud detection rates while minimizing false positives.
 
-🗂️ Project Structure
+📁 Project Structure
 bash
 Copy
 Edit
 credit-card-fraud-detection/
-├── data/             # Dataset files (download manually)
+│
+├── data/             # Dataset files (download manually from Kaggle)
 ├── models/           # Saved trained models
-├── notebooks/        # Jupyter Notebooks for EDA, preprocessing, and modeling
+├── notebooks/        # Jupyter Notebooks for EDA, preprocessing, modeling
 ├── requirements.txt  # Python libraries needed
-├── README.md         # Project information
-├── .gitignore        # Files and folders to be ignored by Git
+├── README.md         # Project overview and instructions
+└── .gitignore        # Files/folders to be ignored by Git
 🛠️ Steps Followed
 1. Data Preprocessing
-Checked for missing values.
+Checked for missing values
 
-Scaled Amount feature.
+Created Scaled Amount feature
 
 Engineered new features:
 
-Transaction frequency by user.
+Transaction frequency by user
 
-Spending patterns based on time.
+Spending patterns based on time
 
-Location mismatch indicators (if data available).
+Location mismatch indicators (if available)
 
 2. Handling Class Imbalance
 Techniques used:
 
-SMOTE (Synthetic Minority Oversampling)
+SMOTE (Synthetic Minority Oversampling Technique)
 
 Random Undersampling
 
-Combination strategies.
+Combination strategies
 
 3. Model Building
 Models trained and evaluated:
@@ -49,23 +51,22 @@ Random Forest
 
 XGBoost
 
-(Optionally) Neural Networks
+(Optional) Neural Networks
 
 Performed hyperparameter tuning for better accuracy.
 
 4. Model Evaluation
-Focused on Recall, Precision, and F1-Score.
+Focused on Recall, Precision, and F1-Score
 
-Plotted ROC-AUC curves.
+Plotted ROC-AUC Curves
 
-Analyzed Confusion Matrix to minimize false positives.
+Analyzed Confusion Matrix to minimize false positives
 
 📈 Results
-Achieved a strong balance between recall and precision.
+✅ Achieved a strong balance between recall and precision.
+✅ Selected the best model based on minimizing false positives while maintaining high detection accuracy.
 
-Best model selection based on minimizing false positives while maintaining high detection accuracy.
-
-🧪 How to Run Locally
+🛠️ How to Run Locally
 Clone the repository:
 
 bash
@@ -79,9 +80,9 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-Download the dataset from Kaggle and place it into the data/ folder.
+Download the dataset manually from Kaggle and place it inside the data/ folder.
 
-Run the Jupyter notebook:
+Run the Jupyter Notebook:
 
 bash
 Copy
@@ -89,6 +90,8 @@ Edit
 jupyter notebook notebooks/your_notebook_name.ipynb
 ⚙️ Requirements
 Python 3.8+
+
+Libraries:
 
 numpy
 
@@ -102,13 +105,5 @@ matplotlib
 
 seaborn
 
-xgboost
+xgboost (optional for boosting)
 
-jupyter
-
-joblib
-
-(Install with pip install -r requirements.txt)
-
-📜 License
-This project is licensed under the MIT License.
