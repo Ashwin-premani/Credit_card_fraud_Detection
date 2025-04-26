@@ -62,6 +62,10 @@ credit-card-fraud-detection/
 ---
 
 <h3 align="left">🚀 How to Run Locally</h3>
+Download the dataset manually and place it inside the `data/` folder:
+
+📥 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+📂 [Click here to download the dataset from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 <ol align="left">
   <li>Clone the repository:
