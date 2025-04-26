@@ -1,109 +1,67 @@
-:
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
 
-🚀 Credit Card Fraud Detection
-Dataset: Credit Card Fraud Detection - Kaggle
+###
 
-📖 Overview
-This project builds an efficient classification model to detect fraudulent credit card transactions.
-The dataset is highly imbalanced, so specialized techniques are applied to ensure high fraud detection rates while minimizing false positives.
+<div align="center">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+</div>
 
-📁 Project Structure
-bash
-Copy
-Edit
-credit-card-fraud-detection/
-│
-├── data/             # Dataset files (download manually from Kaggle)
-├── models/           # Saved trained models
-├── notebooks/        # Jupyter Notebooks for EDA, preprocessing, modeling
-├── requirements.txt  # Python libraries needed
-├── README.md         # Project overview and instructions
-└── .gitignore        # Files/folders to be ignored by Git
-🛠️ Steps Followed
-1. Data Preprocessing
-Checked for missing values
+###
 
-Created Scaled Amount feature
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=maurodesouza.maurodesouza&"  />
+</div>
 
-Engineered new features:
+###
 
-Transaction frequency by user
+<h1 align="center">hey there 👋</h1>
 
-Spending patterns based on time
+###
 
-Location mismatch indicators (if available)
+<h3 align="left">👩‍💻  About Me</h3>
 
-2. Handling Class Imbalance
-Techniques used:
+###
 
-SMOTE (Synthetic Minority Oversampling Technique)
+<p align="left">I'm ... from ....<br><br>- 🔭 I’m working as ...<br>- 📚 I'm currently learning ...<br>- ⚡ In my free time I ...</p>
 
-Random Undersampling
+###
 
-Combination strategies
+<h3 align="left">🛠 Language and tools</h3>
 
-3. Model Building
-Models trained and evaluated:
+###
 
-Logistic Regression
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="40" alt="go logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" alt="rust logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height="40" alt="ruby logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" height="40" alt="dot-net logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" height="40" alt="firebase logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/circleci/circleci-plain.svg" height="40" alt="circleci logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" height="40" alt="docker logo"  />
+</div>
 
-Random Forest
+###
 
-XGBoost
+<h3 align="left">🔥   My Stats :</h3>
 
-(Optional) Neural Networks
+###
 
-Performed hyperparameter tuning for better accuracy.
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
 
-4. Model Evaluation
-Focused on Recall, Precision, and F1-Score
-
-Plotted ROC-AUC Curves
-
-Analyzed Confusion Matrix to minimize false positives
-
-📈 Results
-✅ Achieved a strong balance between recall and precision.
-✅ Selected the best model based on minimizing false positives while maintaining high detection accuracy.
-
-🛠️ How to Run Locally
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
-Install the required libraries:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Download the dataset manually from Kaggle and place it inside the data/ folder.
-
-Run the Jupyter Notebook:
-
-bash
-Copy
-Edit
-jupyter notebook notebooks/your_notebook_name.ipynb
-⚙️ Requirements
-Python 3.8+
-
-Libraries:
-
-numpy
-
-pandas
-
-scikit-learn
-
-imbalanced-learn
-
-matplotlib
-
-seaborn
-
-xgboost (optional for boosting)
-
+###
