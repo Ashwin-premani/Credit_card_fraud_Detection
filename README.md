@@ -30,6 +30,14 @@
 
 <h3 align="left">📁 Project Structure</h3>
 
+credit-card-fraud-detection/
+│
+├── data/             # Dataset files (download manually from Kaggle)
+├── models/           # Saved trained models
+├── notebooks/        # Jupyter Notebooks for EDA, preprocessing, modeling
+├── requirements.txt  # Python libraries needed
+├── README.md         # Project overview and instructions
+└── .gitignore        # Files/folders to be ignored by Git
 
 ---
 
@@ -62,4 +70,6 @@
   git clone https://github.com/your-username/credit-card-fraud-detection.git
   cd credit-card-fraud-detection
 
+pip install -r requirements.txt
+jupyter notebook notebooks/your_notebook_name.ipynb
 
