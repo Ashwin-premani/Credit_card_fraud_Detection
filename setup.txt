@@ -1,0 +1,5 @@
+1. Clone the repository.
+2. Install requirements: pip install -r requirements.txt
+3. Download the dataset from Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+4. Place the dataset inside the 'data/' folder.
+5. Open and run 'notebooks/your_notebook_name.ipynb'.
