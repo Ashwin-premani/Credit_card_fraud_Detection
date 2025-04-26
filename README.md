@@ -1,58 +1,47 @@
-#Credit Card Fraud Detection
-Dataset: Credit Card Fraud Detection Dataset
+🚀 Credit Card Fraud Detection
 
-Overview
-This project focuses on developing an efficient classification model to detect fraudulent credit card transactions.
-Due to the severe class imbalance in the dataset (fraudulent transactions are rare compared to genuine ones), special techniques were applied to address this imbalance.
-The model is designed to minimize false positives while maintaining high overall accuracy.
+Dataset: Credit Card Fraud Detection - Kaggle
 
-Project Structure
-data/ - Contains the dataset (not uploaded due to size/license; download from Kaggle)
+📖 Overview
+This project builds an efficient classification model to detect fraudulent credit card transactions.
+The dataset is highly imbalanced, so specialized techniques are applied to ensure high fraud detection rates while minimizing false positives.
 
-notebooks/ - Jupyter notebooks for exploration, preprocessing, and model building
-
-models/ - Saved models and evaluation metrics
-
-README.md - Project overview and instructions
-
-Problem Statement
-Develop a classification model to efficiently detect fraudulent transactions.
-
-Dataset Features include:
-
-Transaction amount
-
-Merchant details
-
-Timestamps
-
-(Transformed) anonymized variables (V1, V2, ..., V28)
-
-Key Steps
+🗂️ Project Structure
+bash
+Copy
+Edit
+credit-card-fraud-detection/
+├── data/             # Dataset files (download manually)
+├── models/           # Saved trained models
+├── notebooks/        # Jupyter Notebooks for EDA, preprocessing, and modeling
+├── requirements.txt  # Python libraries needed
+├── README.md         # Project information
+├── .gitignore        # Files and folders to be ignored by Git
+🛠️ Steps Followed
 1. Data Preprocessing
-Handled missing values (if any).
+Checked for missing values.
 
-Performed feature scaling on transaction amounts.
+Scaled Amount feature.
 
-Created new engineered features:
+Engineered new features:
 
-Transaction frequency per user
+Transaction frequency by user.
 
-Spending patterns based on transaction time
+Spending patterns based on time.
 
-Location mismatch indicators (if available)
+Location mismatch indicators (if data available).
 
 2. Handling Class Imbalance
-Applied techniques like:
+Techniques used:
 
-Oversampling (SMOTE - Synthetic Minority Oversampling Technique)
+SMOTE (Synthetic Minority Oversampling)
 
-Undersampling the majority class
+Random Undersampling
 
-Hybrid approaches
+Combination strategies.
 
-3. Model Development
-Trained and evaluated different classification models:
+3. Model Building
+Models trained and evaluated:
 
 Logistic Regression
 
@@ -60,50 +49,48 @@ Random Forest
 
 XGBoost
 
-Neural Networks (optional)
+(Optionally) Neural Networks
 
-Performed hyperparameter tuning for optimization.
+Performed hyperparameter tuning for better accuracy.
 
 4. Model Evaluation
-Used metrics suitable for imbalanced data:
+Focused on Recall, Precision, and F1-Score.
 
-Precision
+Plotted ROC-AUC curves.
 
-Recall
+Analyzed Confusion Matrix to minimize false positives.
 
-F1-Score
+📈 Results
+Achieved a strong balance between recall and precision.
 
-ROC-AUC Score
+Best model selection based on minimizing false positives while maintaining high detection accuracy.
 
-Confusion Matrix
-
-Special focus on reducing False Positives to avoid blocking genuine users.
-
-Results
-Achieved high recall for fraud detection with minimal impact on precision.
-
-Best-performing model details are provided in the final report notebook.
-
-How to Run
-Clone this repository:
+🧪 How to Run Locally
+Clone the repository:
 
 bash
 Copy
 Edit
 git clone https://github.com/your-username/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
-Download the dataset from Kaggle and place it inside the data/ folder.
-
 Install the required libraries:
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Run the notebooks step-by-step to explore, preprocess, train, and evaluate the models.
+Download the dataset from Kaggle and place it into the data/ folder.
 
-Requirements
+Run the Jupyter notebook:
+
+bash
+Copy
+Edit
+jupyter notebook notebooks/your_notebook_name.ipynb
+⚙️ Requirements
 Python 3.8+
+
+numpy
 
 pandas
 
@@ -115,7 +102,13 @@ matplotlib
 
 seaborn
 
-xgboost (optional)
+xgboost
 
-(Install via requirements.txt.)
+jupyter
 
+joblib
+
+(Install with pip install -r requirements.txt)
+
+📜 License
+This project is licensed under the MIT License.
